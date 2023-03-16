@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Tilt+Warp&display=swap');
+
+
+*{
+    box-sizing:content-box;
+    margin: 0; 
+    padding: 0;
+}
+
+body{ 
+    background-color: #f8dcbf;
+    font-family: 'Montserrat', cursive;
+
+}
+    
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: #f8dcbf; */
+    height: 40px;
+    padding-top:15px;
+    padding-bottom: 7.5px;
+   
+}
+
+
+.navbar a {
+    font-size: 22px;
+    color:  #e87a00;
+    text-decoration: none;
+}
+
+nav a:hover {
+        color: #001F3D;
+
+
+      };
+
+.logo-image{
+        width: 1500px;
+        height: -150px;
+        border-radius: 0;
+    
+        margin-top: -10px;
+
+    }
+
+/* ^^^ nav bar ^^^ */
+
+.heading { 
+    position: relative 
+    }
+
+h1 {
+    width:500px;
+    margin: 0 auto;
+    /* background: gray; */
+    text-align: center;
+    color:rgb(74, 74, 74);
+    text-decoration-line: underline;
+    padding-top: 20px;
+}
+.text{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    color:#001F3D;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+}
+
+.footer {
+   
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: #f8dcbf; */
+    height: 10px;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 65px;
+}
+  
+  
+  /* Style the links inside the navigation bar */
+  .footer a {
+    font-size: 22px;
+    color:  #e87a00;
+    text-decoration: none;
+  }
+  
+  /* Change the color of links on hover */
+  .footer a:hover {
+    color: #001F3D;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  
+  img {
+    max-width: 100%
+  }
+  
+  .image {
+    flex-basis: 40%
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+  }

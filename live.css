@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Tilt+Warp&display=swap');
+
+
+*{
+    box-sizing:content-box;
+    margin: 0; 
+    padding: 0;
+}
+
+body{ 
+    background-color: #f8dcbf;
+    font-family: 'Montserrat', cursive;
+
+}
+    
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: #f8dcbf; */
+    height: 40px;
+    padding-top:15px;
+    padding-bottom: 7.5px;
+   
+}
+
+
+.navbar a {
+    font-size: 22px;
+    color:  #e87a00;
+    text-decoration: none;
+}
+
+nav a:hover {
+        color: #001F3D;
+
+
+      }
+
+.logo-image{
+        width: 1500px;
+        height: -150px;
+        border-radius: 0;
+    
+        margin-top: -10px;
+
+    }
+
+/* ^^^ nav bar ^^^ */
+
+.heading { 
+    position:relative 
+    }
+
+h1 {
+    width:500px;
+    margin: 0 auto;
+    /* background: gray; */
+    text-align: center;
+    color: #001F3D;
+    text-decoration-line: underline;
+    padding-top: 50px;
+}
+p .solid {
+    border-style: solid;
+
+}
+
+.contact-link {
+    color:#001F3D;
+  }
+  
+.solid .contact-link:hover {
+    color: #e87a00;
+}
+
+/* p {
+    text-align:left;
+
+} */
+
+  /* Place the navbar at the bottom of the page, and make it stick */
+  .footer {
+   
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: #f8dcbf; */
+    height: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 65px;
+   
+  }
+  
+  /* Style the links inside the navigation bar */
+  .footer a {
+    font-size: 22px;
+    color:  #e87a00;
+    text-decoration: none;
+  }
