@@ -60,6 +60,15 @@ h1 {
     text-decoration-line: underline;
     padding-top: 50px;
 }
+
+h2 {
+margin-left: 50px;
+}
+
+h3 {
+margin-left: 50px;
+
+}
 p .solid {
     border-style: solid;
 
